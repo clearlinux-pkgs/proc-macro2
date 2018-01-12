@@ -4,13 +4,14 @@
 #
 Name     : proc-macro2
 Version  : 0.2.1
-Release  : 1
+Release  : 2
 URL      : https://github.com/alexcrichton/proc-macro2/archive/0.2.1.tar.gz
 Source0  : https://github.com/alexcrichton/proc-macro2/archive/0.2.1.tar.gz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0 MIT
 Requires: proc-macro2-data
+Requires: unicode-xid
 BuildRequires : cargo
 BuildRequires : rustc
 BuildRequires : unicode-xid
